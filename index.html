@@ -181,5 +181,39 @@
     </li>
 </ol>
 
+<h2>New Person Registration</h2>
+
+<form action="#" method="post">
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+    
+    <label for="surname">Surname:</label><br>
+    <input type="text" id="surname" name="surname" required><br><br>
+    
+    <label for="dob">Date of Birth:</label><br>
+    <input type="date" id="dob" name="dob" required><br><br>
+    
+    <label for="age">Age:</label><br>
+    <input type="number" id="age" name="age" min="18" required><br><br>
+    
+    <label for="gender">Gender:</label><br>
+    <select id="gender" name="gender" required>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+    </select><br><br>
+    
+    <label for="nationality">Nationality:</label><br>
+    <input type="text" id="nationality" name="nationality" required><br><br>
+    
+    <label for="ethnicity">Ethnicity:</label><br>
+    <input type="text" id="ethnicity" name="ethnicity"><br><br>
+    
+    <label for="matriculated">Year Matriculated:</label><br>
+    <input type="number" id="matriculated" name="matriculated" min="1900" max="2100"><br><br>
+    
+    <input type="submit" value="Register">
+</form>
+
 </body>
 </html>
