@@ -37,6 +37,12 @@ img {
 tr{
     text-align: center;
 }
+tr:hover { /* Hover effect for table rows */
+    background-color: #23c9be;
+}
+th:hover { /* Hover effect for table rows */
+    background-color: #7ce5f3;
+}
 th{
     background-color: #738FE7; 
     padding: .5em 0 .5em 0;
@@ -48,7 +54,7 @@ th{
 .template{
 text-align: center;
  width: 25em;
- background-color:#C0A9B0;
+ background-color:#2dd467;
  border-radius: 5em;
  padding: 2em;
 }
