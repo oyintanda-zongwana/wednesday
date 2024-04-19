@@ -7,6 +7,17 @@
 }
 header{
     padding: 2em;
+    text-shadow: rgb(0, 0, 0) 2px 2px;
+    text-align: center;
+}
+.par1{
+      color:  #ffd000;
+}
+.par2{
+      color: rgb(152, 116, 187);
+}
+.par3{
+      color: rgb(71, 190, 190);
 }
 body{
     background-color:#3F64DE;
@@ -27,7 +38,13 @@ section{
 table {
     width: 100%;
     border-collapse: collapse;
-    
+    text-emphasis-color: #f8f9f9;
+}
+th{
+    color: rgb(145, 255, 10);
+}
+tr{
+    color: gold;
 }
 img {
     width: 50px;
@@ -42,6 +59,17 @@ tr:hover { /* Hover effect for table rows */
 }
 th:hover { /* Hover effect for table rows */
     background-color: #7ce5f3;
+}
+tr:hover { /* Hover effect for table rows */
+    animation: flicker 1s infinite alternate;
+}
+@keyframes flicker {
+    from {
+        background-color: #f1fe04;; /* Lighter shade */
+    }
+    to {
+        background-color: #23c9be;; /* Original color */
+    }
 }
 th{
     background-color: #738FE7; 
