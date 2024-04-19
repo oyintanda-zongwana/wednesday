@@ -41,3 +41,14 @@ th{
     background-color: #738FE7; 
     padding: .5em 0 .5em 0;
 }
+.container{
+    height: 100vh;
+    margin: auto;
+}
+.template{
+text-align: center;
+ width: 25em;
+ background-color:#C0A9B0;
+ border-radius: 5em;
+ padding: 2em;
+}
